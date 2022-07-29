@@ -14,7 +14,7 @@ Convert all sorts of video files (mov, mp4, avi, wmv, gif etc.) into a series of
 - `$ swiper -s 90s-synth.gif -r 442/10 -P -ad`
 - `$ swiper -s ~kruz/298983.mp4 -w 1280 -h 720`
 - `# swiper -adc`
-- `# swiper -s /file.ext -r 15 -w 1280 -h 720 -Pac -p 20
+- `# swiper -s /file.ext -r 15 -w 1280 -h 720 -Pac -p 20`
 
 ## Limitations
 - Stops extracting frames at 1GB of images
