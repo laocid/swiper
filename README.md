@@ -7,7 +7,12 @@ Live wallpaper engine for Linux systems that support `feh --bg-scale`. See help 
 - ffprobe
 
 ## Functionality
-Convert all sorts of video files (mov, mp4, avi, wmv, gif etc.) into a series of frames - extract at custom frame rates, resolutions, and file formats (namely: jpeg, png). Cache frames in memory instead of on disk to reduce frame drops. Apply wallpapers at specific playback frame rates, independent of render frame rates. The main features to enhance performance is frame caching (-c), custom resolutions (-w, -h), playback frame rates (-p) and rendering as jpeg frames (omission of -P). In the below examples, I suggest you understand how the last one works if you want the optimal performance.
+- Convert all sorts of video files (mov, mp4, avi, wmv, gif etc.) into a series of frames - extract at custom frame rates, resolutions, and file formats (namely: jpeg, png). 
+- Cache frames in memory instead of on disk to reduce frame drops. 
+- Apply wallpapers at specific playback frame rates, independent of render frame rates. 
+- Main performance enhancing features: Frame caching (-c), custom resolution (-w, -h), render frame rate (-r), playback frame rate (-p), and rendering as jpeg frames (omit -P). 
+
+Take a look at the last example if you want optimal performance, although you should understand it before you apply it. Arguments in each example, while compatible with some video files, will not have the same effect on others.
 
 ## Example usage
 - `$ swiper`
